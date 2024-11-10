@@ -37,7 +37,9 @@ st.sidebar.info("""
                 
 🔗 **LinkedIn:** [Gabriel García Caysahuana](https://www.linkedin.com/in/gabriel-garcia-caysahuana/)
 
-Esta aplicación fue desarrollada para ayudar a los inversionistas a analizar 
-y optimizar su portafolio de acciones. Si tienes alguna pregunta o sugerencia,
-¡no dudes en ponerte en contacto!
+Si tienes alguna pregunta o sugerencia, ¡no dudes en ponerte en contacto!
+                
+Aviso: Esta aplicación está diseñada con fines educativos y de investigación, 
+utilizando datos financieros de Yahoo Finance. 
+Los datos se presentan aquí solo para exploración y análisis educativos. 
 """)
