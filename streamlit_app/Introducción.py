@@ -1,6 +1,7 @@
 import streamlit as st
 
-st.title("Bienvenido a la Plataforma de Análisis de Inversiones Bursátiles")
+st.title("Plataforma de Análisis de Inversiones Bursátiles")
+st.write("Bienvenido a la página principal. Utiliza el menú en la barra lateral para navegar por la aplicación.")
 
 st.write("""
 Esta aplicación está diseñada para proporcionar un análisis profundo de acciones bursátiles, permitiendo a los inversionistas evaluar el rendimiento histórico, medir el riesgo y optimizar la distribución de activos en su portafolio. A continuación, se explican las principales funcionalidades de la plataforma y los conceptos en los que se basa:
@@ -42,3 +43,22 @@ Esta herramienta de análisis es ideal para inversionistas interesados en evalua
 st.write("""
 **Nota**: Esta herramienta es educativa y no constituye asesoramiento financiero. Recomendamos consultar a un asesor financiero antes de tomar decisiones de inversión.
 """)
+
+st.sidebar.title("Acerca de")
+st.sidebar.info("""
+👨‍💻 **Desarrollado por:** Gabriel García Caysahuana 
+                
+📧 **Contacto:** Proximamente
+                
+🌐 **GitHub:** [GabrielGarcía](https://github.com/Gabriel-Garcia-Caysahuana)  
+                
+🔗 **LinkedIn:** [Gabriel García Caysahuana](https://www.linkedin.com/in/gabriel-garcia-caysahuana/)
+
+Esta aplicación fue desarrollada para ayudar a los inversionistas a analizar 
+y optimizar su portafolio de acciones. Si tienes alguna pregunta o sugerencia,
+¡no dudes en ponerte en contacto!
+""")
+
+# streamlit run streamlit_app/Introducción.py
+# investment-stocks-weights-yfinance-dvmcrmspcqjqg7r2sblyhh
+
