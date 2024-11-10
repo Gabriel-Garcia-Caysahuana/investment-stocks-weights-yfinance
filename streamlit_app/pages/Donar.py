@@ -24,3 +24,17 @@ donation_html = """
 st.markdown(donation_html, unsafe_allow_html=True)
 
 
+st.sidebar.title("Acerca de")
+st.sidebar.info("""
+👨‍💻 **Desarrollado por:** Gabriel García Caysahuana 
+                
+📧 **Contacto:** Proximamente
+                
+🌐 **GitHub:** [GabrielGarcía](https://github.com/Gabriel-Garcia-Caysahuana)  
+                
+🔗 **LinkedIn:** [Gabriel García Caysahuana](https://www.linkedin.com/in/gabriel-garcia-caysahuana/)
+
+Esta aplicación fue desarrollada para ayudar a los inversionistas a analizar 
+y optimizar su portafolio de acciones. Si tienes alguna pregunta o sugerencia,
+¡no dudes en ponerte en contacto!
+""")
