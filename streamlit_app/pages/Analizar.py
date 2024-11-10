@@ -13,8 +13,11 @@ from common.to_generate_excel import generar_excel
 import streamlit as st
 import pandas as pd
 import io
-
-# Título e introducción
+st.set_page_config(
+    page_title="Análisis de Inversión Bursátil",  # Título que aparecerá en la pestaña
+    page_icon="📈"  # Puedes usar emojis o un enlace a un ícono personalizado
+)
+# Título
 st.title("Análisis de Inversión Bursátil")
 st.write("""
     Puede consultar los símbolos de las acciones en:

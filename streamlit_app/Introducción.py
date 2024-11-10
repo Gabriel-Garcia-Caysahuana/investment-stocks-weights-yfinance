@@ -1,5 +1,10 @@
 import streamlit as st
 
+st.set_page_config(
+    page_title="Análisis de Inversión Bursátil",  # Título que aparecerá en la pestaña
+    page_icon="📈"  # Puedes usar emojis o un enlace a un ícono personalizado
+)
+
 st.title("Plataforma de Análisis de Inversiones Bursátiles")
 st.write("Bienvenido a la página principal. Utiliza el menú en la barra lateral para navegar por la aplicación.")
 
