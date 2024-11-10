@@ -5,3 +5,7 @@ __pycache__
 .pytest_cache
 informe_analisis_inversion.docx
 data_download.xlsx
+console_app/dist/
+console_app/build/
+/build/
+*.spec
