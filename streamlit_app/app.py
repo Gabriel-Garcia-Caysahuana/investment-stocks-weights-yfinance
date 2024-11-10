@@ -12,6 +12,7 @@ import streamlit as st
 import pandas as pd
 import io
 
+
 st.title("Análisis de Inversión Bursátil")
 
 st.write("""
